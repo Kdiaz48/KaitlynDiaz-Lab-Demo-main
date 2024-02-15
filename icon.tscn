@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://clv81n12qnq07"]
+
+[ext_resource type="Texture2D" uid="uid://4rwf30x4rroe" path="res://icon.svg" id="1_k0kt4"]
+[ext_resource type="Texture2D" uid="uid://ciow6whbeoldt" path="res://IMG_1551.PNG" id="2_6mduq"]
+[ext_resource type="PackedScene" uid="uid://gj86ckno6s6m" path="res://scene flowers .tscn" id="3_8ye2i"]
+
+[node name="Icon" type="Sprite2D"]
+position = Vector2(881, 470)
+scale = Vector2(1.96875, 1.4375)
+texture = ExtResource("1_k0kt4")
+
+[node name="Img1551" type="Sprite2D" parent="."]
+position = Vector2(-326.603, -89.7391)
+scale = Vector2(0.568531, 0.610047)
+texture = ExtResource("2_6mduq")
+
+[node name="Node2D" parent="." instance=ExtResource("3_8ye2i")]
+
+[node name="Node2D2" parent="." instance=ExtResource("3_8ye2i")]
+position = Vector2(-596.317, -525.913)

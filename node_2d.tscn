@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://b25ofxtgyg1kn"]
+
+[ext_resource type="Texture2D" uid="uid://cbpmja55od64h" path="res://czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00NzYtcGYtczEyNy1iLTA2MC5wbmc Background Removed 5.png" id="1_pdqds"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CzNmcy1Wcml2yxRlL3Jhd3BpeGVsX2LtYWdlcy93zwJzaXRlX2NvbnRlbnQvbHIvcm00NzYtcGYtczEyNy1iLta2mc5WbmcBackgroundRemoved5" type="Sprite2D" parent="."]
+position = Vector2(392, 239)
+texture = ExtResource("1_pdqds")
