@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3 uid="uid://gj86ckno6s6m"]
+
+[ext_resource type="Texture2D" uid="uid://cbpmja55od64h" path="res://czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00NzYtcGYtczEyNy1iLTA2MC5wbmc Background Removed 5.png" id="1_8p47p"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(-188.851, -132.035)
+
+[node name="CzNmcy1Wcml2yxRlL3Jhd3BpeGVsX2LtYWdlcy93zwJzaXRlX2NvbnRlbnQvbHIvcm00NzYtcGYtczEyNy1iLta2mc5WbmcBackgroundRemoved7" type="Sprite2D" parent="."]
+position = Vector2(442, 591)
+scale = Vector2(0.455625, 0.325985)
+texture = ExtResource("1_8p47p")
+
+[node name="CzNmcy1Wcml2yxRlL3Jhd3BpeGVsX2LtYWdlcy93zwJzaXRlX2NvbnRlbnQvbHIvcm00NzYtcGYtczEyNy1iLta2mc5WbmcBackgroundRemoved7" type="Sprite2D" parent="CzNmcy1Wcml2yxRlL3Jhd3BpeGVsX2LtYWdlcy93zwJzaXRlX2NvbnRlbnQvbHIvcm00NzYtcGYtczEyNy1iLta2mc5WbmcBackgroundRemoved7"]
+position = Vector2(1074.33, -15.3381)
+scale = Vector2(0.908145, 0.782734)
+texture = ExtResource("1_8p47p")
+
+[node name="CzNmcy1Wcml2yxRlL3Jhd3BpeGVsX2LtYWdlcy93zwJzaXRlX2NvbnRlbnQvbHIvcm00NzYtcGYtczEyNy1iLta2mc5WbmcBackgroundRemoved8" type="Sprite2D" parent="."]
+position = Vector2(192, 599.125)
+scale = Vector2(0.48, 0.259381)
+texture = ExtResource("1_8p47p")
+
+[node name="CzNmcy1Wcml2yxRlL3Jhd3BpeGVsX2LtYWdlcy93zwJzaXRlX2NvbnRlbnQvbHIvcm00NzYtcGYtczEyNy1iLta2mc5WbmcBackgroundRemoved7" type="Sprite2D" parent="CzNmcy1Wcml2yxRlL3Jhd3BpeGVsX2LtYWdlcy93zwJzaXRlX2NvbnRlbnQvbHIvcm00NzYtcGYtczEyNy1iLta2mc5WbmcBackgroundRemoved8"]
+position = Vector2(1010.17, -46.7459)
+scale = Vector2(0.776667, 1.17179)
+texture = ExtResource("1_8p47p")

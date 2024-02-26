@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=3 uid="uid://blbd56657jug0"]
+
+[ext_resource type="Texture2D" uid="uid://dgjlhndlq87vd" path="res://3d-rendering-brown-brick-wall-isolated-png.webp" id="1_surti"]
+
+[node name="Brick" type="Node2D"]
+
+[node name="3d-rendering-brown-brick-wall-isolated-png" type="Sprite2D" parent="."]
+position = Vector2(131, 574)
+scale = Vector2(1.31, 1.23)
+texture = ExtResource("1_surti")
+
+[node name="3d-rendering-brown-brick-wall-isolated-png2" type="Sprite2D" parent="."]
+position = Vector2(389, 572)
+scale = Vector2(1.31, 1.23)
+texture = ExtResource("1_surti")
+
+[node name="3d-rendering-brown-brick-wall-isolated-png3" type="Sprite2D" parent="."]
+position = Vector2(647, 572)
+scale = Vector2(1.31, 1.23)
+texture = ExtResource("1_surti")
+
+[node name="3d-rendering-brown-brick-wall-isolated-png4" type="Sprite2D" parent="."]
+position = Vector2(905, 571)
+scale = Vector2(1.31, 1.23)
+texture = ExtResource("1_surti")
+
+[node name="3d-rendering-brown-brick-wall-isolated-png5" type="Sprite2D" parent="."]
+position = Vector2(1161, 571)
+scale = Vector2(1.31, 1.23)
+texture = ExtResource("1_surti")

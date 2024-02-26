@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://bt183xq7sx7l5"]
+
+[ext_resource type="Texture2D" uid="uid://ciow6whbeoldt" path="res://IMG_1551.PNG" id="1_nf1f1"]
+[ext_resource type="Texture2D" uid="uid://4rwf30x4rroe" path="res://icon.svg" id="2_e4ln2"]
+[ext_resource type="PackedScene" uid="uid://blbd56657jug0" path="res://bricks.tscn" id="3_ua2bq"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Img1551" type="Sprite2D" parent="."]
+position = Vector2(952, 267)
+texture = ExtResource("1_nf1f1")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(89, 81)
+texture = ExtResource("2_e4ln2")
+
+[node name="Icon2" type="Sprite2D" parent="Icon"]
+position = Vector2(146, 6)
+texture = ExtResource("2_e4ln2")
+
+[node name="Brick" parent="." instance=ExtResource("3_ua2bq")]
+position = Vector2(0, 6)
