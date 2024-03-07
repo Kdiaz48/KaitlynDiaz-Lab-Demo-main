@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://cu0m4tgs5i1ih"]
+
+[ext_resource type="Texture2D" uid="uid://4rwf30x4rroe" path="res://icon.svg" id="1_ugyxs"]
+[ext_resource type="Script" path="res://IconDemo.gd" id="2_0fkma"]
+[ext_resource type="Texture2D" uid="uid://bh2gmriykjye6" path="res://4ED786EF-01CA-41E5-9E26-3048CE41C927.jpeg" id="3_02phj"]
+[ext_resource type="Script" path="res://finn.gd" id="4_minb1"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(319, 273)
+texture = ExtResource("1_ugyxs")
+script = ExtResource("2_0fkma")
+
+[node name="finn" type="Sprite2D" parent="."]
+position = Vector2(840.929, 470.58)
+rotation = 1.5708
+scale = Vector2(0.101479, 0.164022)
+texture = ExtResource("3_02phj")
+script = ExtResource("4_minb1")

@@ -1,14 +1,16 @@
-[gd_scene load_steps=4 format=3 uid="uid://bt183xq7sx7l5"]
+[gd_scene load_steps=5 format=3 uid="uid://bt183xq7sx7l5"]
 
 [ext_resource type="Texture2D" uid="uid://ciow6whbeoldt" path="res://IMG_1551.PNG" id="1_nf1f1"]
+[ext_resource type="Script" path="res://Img1551.gd" id="2_0hgkc"]
 [ext_resource type="Texture2D" uid="uid://4rwf30x4rroe" path="res://icon.svg" id="2_e4ln2"]
 [ext_resource type="PackedScene" uid="uid://blbd56657jug0" path="res://bricks.tscn" id="3_ua2bq"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="Img1551" type="Sprite2D" parent="."]
-position = Vector2(952, 267)
+position = Vector2(986, 337)
 texture = ExtResource("1_nf1f1")
+script = ExtResource("2_0hgkc")
 
 [node name="Icon" type="Sprite2D" parent="."]
 position = Vector2(89, 81)
@@ -20,3 +22,7 @@ texture = ExtResource("2_e4ln2")
 
 [node name="Brick" parent="." instance=ExtResource("3_ua2bq")]
 position = Vector2(0, 6)
+
+[node name="Icon2" type="Sprite2D" parent="."]
+position = Vector2(383, 85)
+texture = ExtResource("2_e4ln2")
